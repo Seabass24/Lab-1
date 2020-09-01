@@ -9,6 +9,6 @@ int main(void) {
   char *temp=readline("Enter temperature in celsius: ");
   temperature = atof(temp);
   f= temperature* 9/5 + 32;
-  printf("%f° in Celsius is equivalent to %f° Fahrenheit.",temperature,f);
+  printf("%f° in Celsius is equivalent to %f° Fahrenheit.\n",temperature,f);
   return 0;
 }
